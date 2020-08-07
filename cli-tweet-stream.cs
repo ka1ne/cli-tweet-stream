@@ -9,7 +9,7 @@ namespace cli_tweet_stream
         static void Main(string[] args)
         {
             // Twitter API authentication
-            Auth.SetUserCredentials("8dE5BOtZaoiblZ0KOHXDNsug5", "zph6ivL7vcOQZAXSxao4sdPs8Sg7mNjbtusR3rRmw19VvYPk7a", "300408799-Smd6y0BHL4TuKs92ZKTaqYEeVP2364EZJFR9fQiM", "66QGvO7BjicQF0h512c4yAOoubqgw3ANsMZcNg6FuzITg");
+            Auth.SetUserCredentials("CONSUMER_KEY", "CONSUMER_SECRET", "ACCESS_TOKEN", "ACCESS_SECRET");
 
             var stream = Stream.CreateFilteredStream();
 
